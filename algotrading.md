@@ -47,6 +47,7 @@ Plot the closing prices over time to visualize the price movement.
 plot(amd_df$date, amd_df$close,'l')
 ```
 
+
 ### Step 2: Trading Algorithm
 Implement the trading algorithm as per the instructions. You should initialize necessary variables, and loop through the dataframe to execute trades based on the set conditions.
 
@@ -56,7 +57,6 @@ Implement the trading algorithm as per the instructions. You should initialize n
   - Otherwise, if the price of the current day is less than that of the previous day, set the 'trade_type' to 'buy'. Set the 'costs_proceeds' to the current share price multiplied by a `share_size` value of 100.
   - You will not modify the algorithm for instances where the current day’s price is greater than the previous day’s price or when it is equal to the previous day’s price.
   - If this is the last day of trading, set the 'trade_type' to 'sell'. In this case, also set the 'costs_proceeds' column to the total number in the `accumulated_shares` variable multiplied by the price of the last day.
-
 
 
 ```r
