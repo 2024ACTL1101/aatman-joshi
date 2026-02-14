@@ -35,6 +35,6 @@ This is written in markdown language.
 
 **Aatman Joshi:** 
 
-Throughout ACTL1101, I have mastered the topics listed in principles of actuarial science, and the coding assignment work is mine. I feel much more prepared for my future career.
+Throughout ACTL1101, I have mastered the topics listed in the principles of actuarial science portrayed through the coding assignment. I feel much more prepared for my future career.
 
 😄😄😄
